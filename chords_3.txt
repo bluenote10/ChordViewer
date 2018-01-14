@@ -1,0 +1,4 @@
+ x, x, x, 9, 9, 7, Dur Grundstellung
+ x, x, x, 1, 0, 0, Dur 1. Umkehrung
+ x, x, x, 4, 5, 4, Dur 2. Umkehrung
+

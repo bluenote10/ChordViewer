@@ -1,0 +1,17 @@
+Jimmy Bruno
+ 0, x, 0, 1, 0, x, Dur 7 (A)
+ 4, x, 2, 4, 3, x, Dur 7 (B)
+ 7, x, 6, 7, 5, x, Dur 7 (C)
+10, x, 9, 9, 9, x, Dur 7 (D)
+ 
+ x, x, 0, 1, 0, 0, Dur 7 (A)
+ x, x, 2, 4, 3, 4, Dur 7 (B)
+ x, x, 6, 7, 5, 7, Dur 7 (C)
+ x, x, 9, 9, 9,10, Dur 7 (D)
+
+and small versions
+, x, x, 0, 1, 0, x, Dur 7
+, x, x, 6, 4, 3, x, Dur 7
+, x, x, 6, 7, 5, x, Dur 7
+, x, x,12, 9, 9, x, Dur 7
+

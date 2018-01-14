@@ -1,0 +1,12 @@
+ 0, 2, 2, 1, 0, 0, Dur E Typ
+ 4, 2, 2, 4, 5, 4, Dur D Typ
+ 7, 7, 6, 4, 5, 4, Dur C Typ
+ 7, 7, 9, 9, 9, 7, Dur A Typ
+12,11, 9, 9, 9,12, Dur G Typ
+
+ 0, 2, 2, 0, 0, 0, Moll E Typ
+ 3, 2, 2, 4, 5, 3, Moll D Typ
+ 7, 7, 5, 4, 5, 3, Moll C Typ
+ 7, 7, 9, 9, 8, 7, Moll A Typ
+12,10, 9, 9, 8,12, Moll G Typ
+

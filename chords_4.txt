@@ -1,0 +1,4 @@
+ x, x, x, 9, 8, 7, Moll Grundstellung
+ x, x, x, 0, 0, 0, Moll 1. Umkehrung
+ x, x, x, 4, 5, 3, Moll 2. Umkehrung
+
