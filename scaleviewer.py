@@ -1,7 +1,5 @@
+#!/usr/bin/env python
 # encoding=utf-8
-'''
-This Rocks
-'''
 
 # Import Statements {{{
 import wx
@@ -13,7 +11,7 @@ import glob
 import re
 # }}}
 
-# Helper: Path Change {{{ 
+# Helper: Path Change {{{
 relpath = os.path.dirname(sys.argv[0])
 g_scriptpath = os.path.abspath(relpath)
 
@@ -612,7 +610,7 @@ path.CloseSubpath()
 path.AddRectangle(-BASE4, -BASE4/2, BASE2, BASE4)
 
 # Now use that path to demonstrate various capbilites of the grpahics context
-gc.PushState()             # save current translation/scale/other state 
+gc.PushState()             # save current translation/scale/other state
 gc.Translate(60, 75)       # reposition the context origin
 
 gc.SetPen(wx.Pen("navy", 1))
@@ -623,12 +621,12 @@ for label, PathFunc in [("StrokePath", gc.StrokePath),
                         ("FillPath",   gc.FillPath),
                         ("DrawPath",   gc.DrawPath)]:
     w, h = gc.GetTextExtent(label)
-    
+
     gc.DrawText(label, -w/2, -BASE2-h-4)
     PathFunc(path)
     gc.Translate(2*BASE, 0)
 
-    
+
 gc.PopState()              # restore saved state
 gc.PushState()             # save it again
 gc.Translate(60, 200)      # offset to the lower part of the window
@@ -639,5 +637,5 @@ gc.Translate(0, 20)
 
 gc.DrawPath(path)
 """
-        
+
 # }}}
